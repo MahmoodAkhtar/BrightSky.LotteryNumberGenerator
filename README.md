@@ -21,7 +21,7 @@
 
 # Getting Started
 
-This is a .NET Core 3.1 solution written using VS2019 consisting of a `*.Core` project and `*.Cli` project both in the `\src` folder. There is an accompaning unit test project called `*.Core.Tests` in the `\test` folder. These unit tests verifiy the above requirements (including EXTRAs) are met. [FluentAssertions](https://fluentassertions.com/) have been used in the unit tests to make them more human readable. Overall there is nothing fancy, just code that meets the requirements. 
+This is a .NET Core 3.1 solution written using VS2019 consisting of a `*.Core` project and `*.Cli` project both in the `\src` folder. There is an accompanying unit test project called `*.Core.Tests` in the `\test` folder. These unit tests verifiy the above requirements (including EXTRAs) are met. [FluentAssertions](https://fluentassertions.com/) have been used in the unit tests to make them more human readable. Overall there is nothing fancy, just code that meets the requirements. 
 
 The UI is a console app. Make sure the `BrightSky.LotteryNumberGenerator.Cli` project is marked as the 'Start up Project'. Then just run and follow instructions.
 
