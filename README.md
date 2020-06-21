@@ -23,8 +23,16 @@
 
 This is a .NET Core 3.1 solution written using VS2019 consisting of a `*.Core` project and `*.Cli` project both in the `\src` folder. There is an accompanying unit test project called `*.Core.Tests` in the `\test` folder. These unit tests verifiy the above requirements (including EXTRAs) are met. [FluentAssertions](https://fluentassertions.com/) have been used in the unit tests to make them more human readable. Overall there is nothing fancy, just code that meets the requirements. 
 
-The UI is a console app. Make sure the `BrightSky.LotteryNumberGenerator.Cli` project is marked as the 'Start up Project'. Then just run and follow instructions.
+The UI is a console app. Make sure the `BrightSky.LotteryNumberGenerator.Cli` project is marked as the 'Startup Project'. Then just run and follow instructions.
 
 # What to do next?
 
 Give me the contract - _just kidding ... but seriously do give me the contract - lol_
+
+# Updating ... having another go ... (21/06/2020)
+
+After some thought I have decided to redo this, this timing taking more care and thought. In the `\src` folder is a new `*.Cli2` project. If this is marked as the 'Startup Project' just run and follow the instructions.
+
+## Why do it again?
+
+To better demonstrate better domain modelling, seperation of concerns, inheritence with a bias for composition, dependency injection and more ... including some ascii art too.
