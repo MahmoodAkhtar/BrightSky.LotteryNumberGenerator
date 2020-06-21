@@ -4,9 +4,9 @@ namespace BrightSky.LotteryNumberGenerator.Core.Types
 {
     public class RgbColour
     {
-        public RgbValue Red;
-        public RgbValue Green;
-        public RgbValue Blue;
+        public RgbValue Red { get; }
+        public RgbValue Green { get; }
+        public RgbValue Blue { get; }
 
         public RgbColour(RgbValue red, RgbValue green, RgbValue blue)
         {
